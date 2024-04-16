@@ -16,7 +16,7 @@ public class FirstClientHandler extends ChannelInboundHandlerAdapter
         //获取数据
         ByteBuf buffer = getByteBuf(ctx);
         //写数据
-        ctx.channel().writeAndFlush(buffer);
+        ctx.writeAndFlush(buffer);
     }
 
     private ByteBuf getByteBuf(ChannelHandlerContext ctx)
@@ -29,5 +29,13 @@ public class FirstClientHandler extends ChannelInboundHandlerAdapter
         buffer.writeBytes(bytes);
         //返回ByteBuf
         return buffer;
+    }
+
+    @Override
+    public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception
+    {
+        ByteBuf byteBuf = (ByteBuf) msg;
+        String s = byteBuf.toString(StandardCharsets.UTF_8);
+        System.out.println(new Date() + ": 客户端收到数据 -> " + s);
     }
 }
