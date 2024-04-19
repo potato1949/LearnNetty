@@ -1,16 +1,18 @@
-package com.vicya.netty.chapter08.Packet;
+package com.vicya.netty.chapter08.protocol.packet;
 
+import com.vicya.netty.chapter08.protocol.serial.Serializer;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;
 
 public class PacketCodeC
 {
+    public static PacketCodeC INSTANCE = new PacketCodeC();
     private static final int MAGIC_NUMBER = 0x12345678;
 
-    public ByteBuf encode(Packet packet)
+    public ByteBuf encode(ByteBufAllocator alloc, Packet packet)
     {
         //1.创建ByteBuf对象
-        ByteBuf byteBuf = ByteBufAllocator.DEFAULT.ioBuffer();
+        ByteBuf byteBuf = alloc.ioBuffer();
         //2.序列化Java对象
         byte[] bytes = Serializer.DEFAULT.serialize(packet);
 
@@ -41,7 +43,7 @@ public class PacketCodeC
         byte[] bytes = new byte[length];
         byteBuf.readBytes(bytes);
 
-//        Class<? extends Packet> requestType = getRequestType(command);
+//        Class<? extends Packet> requestType = Command.INSTANCE.getRequestType(command);
 //        Serializer serializer = getSerializer(serializeAlgorithm);
 //
 //        if (requestType != null && serializer != null)

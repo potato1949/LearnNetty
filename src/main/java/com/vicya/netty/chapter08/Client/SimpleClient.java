@@ -1,10 +1,9 @@
-package com.vicya.netty.chapter08.Client;
+package com.vicya.netty.chapter08.client;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import io.netty.handler.codec.string.StringDecoder;
 
 public class SimpleClient
 {
@@ -20,10 +19,10 @@ public class SimpleClient
                     @Override
                     protected void initChannel(NioSocketChannel socketChannel) throws Exception
                     {
-                        socketChannel.pipeline().addLast(new StringDecoder());
+                        socketChannel.pipeline().addLast(new ClientHandler());
                     }
                 });
 
-        bootstrap.connect("127.0.0.1", 58000);
+        bootstrap.connect("localhost", 58000);
     }
 }

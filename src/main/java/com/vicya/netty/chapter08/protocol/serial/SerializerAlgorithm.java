@@ -1,4 +1,4 @@
-package com.vicya.netty.chapter08.Packet;
+package com.vicya.netty.chapter08.protocol.serial;
 
 public interface SerializerAlgorithm
 {

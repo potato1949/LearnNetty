@@ -1,11 +1,10 @@
-package com.vicya.netty.chapter08.Server;
+package com.vicya.netty.chapter08.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import io.netty.handler.codec.string.StringDecoder;
 
 public class SimpleServer
 {
@@ -22,7 +21,7 @@ public class SimpleServer
                     @Override
                     protected void initChannel(NioSocketChannel socketChannel) throws Exception
                     {
-                        socketChannel.pipeline().addLast(new StringDecoder());
+                        socketChannel.pipeline().addLast(new ServerHandler());
                     }
                 });
         serverBootstrap.bind(58000);
