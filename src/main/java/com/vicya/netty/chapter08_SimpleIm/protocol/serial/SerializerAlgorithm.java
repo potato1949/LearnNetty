@@ -1,4 +1,4 @@
-package com.vicya.netty.chapter08.protocol.serial;
+package com.vicya.netty.chapter08_SimpleIm.protocol.serial;
 
 public interface SerializerAlgorithm
 {

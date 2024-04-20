@@ -1,6 +1,8 @@
-package com.vicya.netty.chapter08.protocol.serial;
+package com.vicya.netty.chapter08_SimpleIm.protocol.serial.impl;
 
 import com.alibaba.fastjson.JSON;
+import com.vicya.netty.chapter08_SimpleIm.protocol.serial.Serializer;
+import com.vicya.netty.chapter08_SimpleIm.protocol.serial.SerializerAlgorithm;
 
 public class JSONSerializer implements Serializer
 {

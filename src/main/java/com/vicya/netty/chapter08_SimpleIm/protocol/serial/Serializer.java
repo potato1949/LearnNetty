@@ -1,14 +1,7 @@
-package com.vicya.netty.chapter08.protocol.serial;
+package com.vicya.netty.chapter08_SimpleIm.protocol.serial;
 
 public interface Serializer
 {
-    /**
-     * JSON序列化
-     */
-    byte JSON_SERIALIZER = 1;
-
-    Serializer DEFAULT = new JSONSerializer();
-
     /**
      * 序列化算法
      * @return

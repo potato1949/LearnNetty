@@ -1,4 +1,4 @@
-package com.vicya.netty.chapter07;
+package com.vicya.netty.chapter07_ByteBuf;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;

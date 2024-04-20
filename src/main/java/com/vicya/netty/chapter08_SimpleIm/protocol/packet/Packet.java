@@ -1,4 +1,4 @@
-package com.vicya.netty.chapter08.protocol.packet;
+package com.vicya.netty.chapter08_SimpleIm.protocol.packet;
 
 import lombok.Data;
 
