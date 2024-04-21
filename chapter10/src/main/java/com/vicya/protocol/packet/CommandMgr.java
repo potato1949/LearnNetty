@@ -22,7 +22,7 @@ public class CommandMgr
         commandMap.put(command, packet);
     }
 
-    public Class<? extends Packet> getSerializer(Byte command)
+    public Class<? extends Packet> getCommand(Byte command)
     {
         return commandMap.get(command);
     }
