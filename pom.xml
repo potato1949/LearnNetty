@@ -14,9 +14,10 @@
         <module>chapter05</module>
         <module>chapter06</module>
         <module>chapter07</module>
-        <module>chapter08</module>
-        <module>chapter09</module>
-        <module>chapter10</module>
+        <module>chapter08_implement_message_exchange_between_client_and_server</module>
+        <module>chapter11_pipeline_and_channel_handler</module>
+        <module>chapter12_build_pipeline_for_server_and_client</module>
+        <module>chapter13</module>
     </modules>
 
     <properties>
