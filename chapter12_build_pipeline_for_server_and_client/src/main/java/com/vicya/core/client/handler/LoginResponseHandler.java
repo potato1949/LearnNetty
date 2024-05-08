@@ -10,6 +10,12 @@ import java.util.Date;
 public class LoginResponseHandler extends SimpleChannelInboundHandler<LoginResponsePacket>
 {
     @Override
+    public void channelActive(ChannelHandlerContext ctx) throws Exception
+    {
+        super.channelActive(ctx);
+    }
+
+    @Override
     protected void channelRead0(ChannelHandlerContext channelHandlerContext, LoginResponsePacket loginResponsePacket) throws Exception
     {
         if (loginResponsePacket.isSuccess())

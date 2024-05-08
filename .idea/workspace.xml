@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b2d9127-7d27-4882-8948-47fd832c82c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/common/ProtocolDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/common/ProtocolEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/server/FirstServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/server/Splitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/protocol/PacketCodeC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/protocol/SimpleProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter14_life_cycle_of_channel_handler/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter14_life_cycle_of_channel_handler/src/main/java/com/vicya/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter12_build_pipeline_for_server_and_client/src/main/java/com/vicya/core/client/handler/LoginResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter12_build_pipeline_for_server_and_client/src/main/java/com/vicya/core/client/handler/LoginResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/client/FirstClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/client/FirstClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/client/SimpleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/client/SimpleClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/server/SimpleServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/server/SimpleServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Runtime/apache-maven-3.9.4" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2gBeqyn1FxSzDE0Me1LOxc0Pf02" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "D:/Code/Daily/LearnNetty",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vicya.core.common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SimpleClient">
+    <configuration name="SimpleClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vicya.core.client.SimpleClient" />
+      <module name="chapter12_build_pipeline_for_server_and_client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vicya.core.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vicya.core.client.SimpleClient" />
+      <module name="chapter13_packet_sticking_and_fragmentation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vicya.core.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vicya.core.server.SimpleServer" />
+      <module name="chapter13_packet_sticking_and_fragmentation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vicya.core.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vicya.core.server.SimpleServer" />
+      <module name="chapter12_build_pipeline_for_server_and_client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vicya.core.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimpleClient" />
+        <item itemvalue="Application.SimpleServer" />
+        <item itemvalue="Application.SimpleClient (1)" />
+        <item itemvalue="Application.SimpleServer (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b2d9127-7d27-4882-8948-47fd832c82c0" name="Changes" comment="" />
+      <created>1715175592749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715175592749</updated>
+      <workItem from="1715175593966" duration="9280000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
