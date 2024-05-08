@@ -17,7 +17,7 @@
         <module>chapter08_implement_message_exchange_between_client_and_server</module>
         <module>chapter11_pipeline_and_channel_handler</module>
         <module>chapter12_build_pipeline_for_server_and_client</module>
-        <module>chapter13</module>
+        <module>chapter13_packet_sticking_and_fragmentation</module>
     </modules>
 
     <properties>
