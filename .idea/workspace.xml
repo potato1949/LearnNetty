@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b2d9127-7d27-4882-8948-47fd832c82c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/common/ProtocolDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/common/ProtocolEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/server/FirstServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/server/Splitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/protocol/PacketCodeC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/protocol/SimpleProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter14_life_cycle_of_channel_handler/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter14_life_cycle_of_channel_handler/src/main/java/com/vicya/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="c02d5016-44b9-4d9f-8817-f73edb29640f" name="Changes" comment="update -">
+      <change afterPath="$PROJECT_DIR$/Echo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Echo/src/main/java/client/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Echo/src/main/java/client/EchoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Echo/src/main/java/server/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Echo/src/main/java/server/EchoServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter12_build_pipeline_for_server_and_client/src/main/java/com/vicya/core/client/handler/LoginResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter12_build_pipeline_for_server_and_client/src/main/java/com/vicya/core/client/handler/LoginResponseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/client/FirstClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/client/FirstClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/client/SimpleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/client/SimpleClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/server/SimpleServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/core/server/SimpleServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/protocol/PacketCodeC.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter13_packet_sticking_and_fragmentation/src/main/java/com/vicya/protocol/PacketCodeC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter14_life_cycle_of_channel_handler/src/main/java/com/vicya/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter14_life_cycle_of_channel_handler/src/main/java/com/vicya/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,22 +31,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.104.Final/netty-transport-4.1.104.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.104.Final/netty-transport-4.1.104.Final.jar!/io/netty/channel/ChannelHandlerContext.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.104.Final/netty-transport-4.1.104.Final.jar!/io/netty/channel/ChannelOutboundInvoker.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../Runtime/apache-maven-3.9.4" />
-        <option name="useMavenConfig" value="true" />
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../../Runtime/apache-maven-3.9.4" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2gBeqyn1FxSzDE0Me1LOxc0Pf02" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -64,20 +65,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EchoClient.executor": "Run",
+    "Application.EchoServer.executor": "Run",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "D:/Code/Daily/LearnNetty",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/env/netty-netty-4.1.104.Final",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.43448275",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,13 +93,39 @@
       <recent name="com.vicya.core.common" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleClient">
-    <configuration name="SimpleClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vicya.core.client.SimpleClient" />
-      <module name="chapter12_build_pipeline_for_server_and_client" />
+  <component name="RunManager" selected="Application.EchoClient">
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.EchoClient" />
+      <module name="Echo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vicya.core.client.*" />
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.EchoServer" />
+      <module name="Echo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vicya.Main" />
+      <module name="chapter14_life_cycle_of_channel_handler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vicya.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,26 +174,45 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SimpleClient" />
         <item itemvalue="Application.SimpleServer" />
-        <item itemvalue="Application.SimpleClient (1)" />
-        <item itemvalue="Application.SimpleServer (1)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19072.14" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19072.14" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8b2d9127-7d27-4882-8948-47fd832c82c0" name="Changes" comment="" />
+      <changelist id="c02d5016-44b9-4d9f-8817-f73edb29640f" name="Changes" comment="update -" />
       <created>1715175592749</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715175592749</updated>
       <workItem from="1715175593966" duration="9280000" />
+      <workItem from="1724844843192" duration="2618000" />
+      <workItem from="1727059710959" duration="229000" />
+      <workItem from="1727168741500" duration="369000" />
+      <workItem from="1730799950664" duration="920000" />
+      <workItem from="1732093897467" duration="4569000" />
+      <workItem from="1732170957521" duration="7657000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

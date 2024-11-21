@@ -19,6 +19,7 @@
         <module>chapter12_build_pipeline_for_server_and_client</module>
         <module>chapter13_packet_sticking_and_fragmentation</module>
         <module>chapter14_life_cycle_of_channel_handler</module>
+        <module>Echo</module>
     </modules>
 
     <properties>
@@ -47,6 +48,11 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.83</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
         </dependency>
     </dependencies>
 
